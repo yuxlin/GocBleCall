@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_default_bg">
+
+
+    <ImageView
+        android:id="@+id/bleRecycle_iv"
+        android:layout_width="@dimen/dp60"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingTop="@dimen/dp10"
+        android:paddingBottom="@dimen/dp10"
+        android:src="@mipmap/phone" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/ib_delete"
+        android:layout_toEndOf="@+id/bleRecycle_iv"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp10"
+        android:paddingBottom="@dimen/dp10">
+
+        <TextView
+            android:id="@+id/bleRecycle_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorBlack"
+            android:textSize="@dimen/textSize14" />
+
+        <TextView
+            android:id="@+id/bleRecycle_tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize10" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/ib_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp10"
+        android:background="@drawable/imagebutton_bg"
+        android:padding="@dimen/dp10"
+        android:src="@mipmap/delete" />
+
+    <View
+        android:id="@+id/recycleLine"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dp15"
+        android:background="@color/colorGray" />
+</RelativeLayout>

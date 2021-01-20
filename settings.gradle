@@ -1,0 +1,3 @@
+rootProject.name='GocBleCall'
+include ':app', ':common'
+include ':bluetooth'

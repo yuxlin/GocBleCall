@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gocsdk</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="in_calling">正在呼叫...</string>
+    <string name="is_talking">正在通话:</string>
+    <string name="txt_music_list">歌曲列表</string>
+    <string name="txt_music_pre">回退列表</string>
+    <string name="txt_bt_one">蓝牙ONE</string>
+    <string name="txt_bt_two">蓝牙TWO</string>
+    <string name="main_device">主设备</string>
+    <string name="device_no_connect">该设备没有连接，无法设置主设备</string>
+    <string name="please_connect_device">请连接设备</string>
+    <string name="connected">已经连接</string>
+    <string name="connect_full">连接已满，最多只支持两个连接！！！</string>
+
+</resources>

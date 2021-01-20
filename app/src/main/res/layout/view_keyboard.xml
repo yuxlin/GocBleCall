@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_1"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard1"
+            android:tag="ib_1" />
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_2"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard2"
+            android:tag="ib_2" />
+
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_3"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard3"
+            android:tag="ib_3" />
+
+    </LinearLayout>
+
+    <!--第2行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_4"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard4"
+            android:tag="ib_4" />
+
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_5"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard5"
+            android:tag="ib_5" />
+
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_6"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard6"
+            android:tag="ib_6" />
+
+    </LinearLayout>
+
+    <!--第三行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_7"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard7"
+            android:tag="ib_7" />
+
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_8"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard8"
+            android:tag="ib_8" />
+
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_9"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard9"
+            android:tag="ib_9" />
+
+
+    </LinearLayout>
+
+    <!--第四行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_10"
+            android:tag="ib_10"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard10" />
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_0"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard0"
+            android:tag="ib_0" />
+
+        <cn.kaer.gocbluetooth.widget.KeyBoardButton
+            android:id="@+id/ib_11"
+            style="@style/keyboardIBStyle"
+            android:src="@mipmap/keyboard11"
+            android:tag="ib_11" />
+
+    </LinearLayout>
+</LinearLayout>
